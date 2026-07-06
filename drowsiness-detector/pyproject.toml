@@ -1,0 +1,15 @@
+[project]
+name = "drowsiness-detector"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "imageio-ffmpeg>=0.6.0",
+    "mediapipe>=0.10.35",
+    "opencv-python>=4.13.0.92",
+    "pillow>=12.2.0",
+    "pygame>=2.6.1",
+    "requests>=2.32.0",
+    "yt-dlp>=2026.6.9",
+]
